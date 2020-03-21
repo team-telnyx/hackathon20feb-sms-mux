@@ -1,0 +1,15 @@
+[MASTER]
+load-plugins=pylint_django
+
+[MESSAGES CONTROL]
+disable=bad-continuation,
+        missing-module-docstring,
+        missing-class-docstring,
+        missing-function-docstring,
+
+[BASIC]
+good-names=i,
+           j,
+           k,
+           pk,
+           _

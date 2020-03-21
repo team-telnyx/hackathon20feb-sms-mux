@@ -1,0 +1,15 @@
+Django>=3,<4
+djangorestframework>=3.10,<4
+django-filter
+django-cors-headers
+gunicorn
+markdown
+whitenoise
+
+phonenumbers
+telnyx
+PyNaCl
+
+# django-heroku
+# ^^ broken?? repo read-only/archived... https://github.com/heroku/django-heroku
+#    and psycopg2 2.8.x needs building, which can't do on heroku (use psycopg2-binary)

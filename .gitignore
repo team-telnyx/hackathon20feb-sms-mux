@@ -1,0 +1,24 @@
+# js
+node_modules
+
+# generic python
+/dist/
+*.egg-info/
+*.py[cod]
+__pycache__/
+
+# the virtualenv
+/.venv
+/venv
+
+# django
+staticfiles
+db.sqlite3
+
+# heroku
+.env
+
+# editors
+.vscode/
+
+.DS_Store

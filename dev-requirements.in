@@ -1,0 +1,6 @@
+-r requirements.txt
+
+black==19.10b0
+isort
+pylint
+pylint-django
