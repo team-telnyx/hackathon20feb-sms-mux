@@ -4,6 +4,12 @@ This is a proof-of-concept application that uses the Telnyx SMS API to provide S
 
 ![Florida Man Client](./docs/florida-man-client.png)
 
+## Slides
+
+[Slides (PDF)](slides.pdf)
+![](slide1.svg)
+![](slide2.svg)
+
 ## Limitations
 
 The application currently has no authentication, so ***must not be used in production***. If the app is made accessible via a random address (e.g. ngrok subdomain), it should be OK to use this app for local testing and prototyping if supervised closely. Keep `DEBUG` off in the Django settings; turning it on may expose secrets like your API key in crash reports.
